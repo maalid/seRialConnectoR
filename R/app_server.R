@@ -31,7 +31,7 @@ app_server <- function(input, output, session) {
         
         com <- input$COM
         
-        conn <- serial::serialConnection("arduino", 
+        conn <<- serial::serialConnection("arduino", 
                                          port = glue::glue("{com}"), 
                                          mode = "9600,n,8,1")
         
