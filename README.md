@@ -21,8 +21,6 @@ You can install the released version of `seRialConnectoR` from
 devtools::install_github("maalid/seRialConnectoR")
 ```
 
-You have to install
-
 ## Example
 
 To run the app, just write
