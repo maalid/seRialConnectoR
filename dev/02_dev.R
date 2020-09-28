@@ -15,7 +15,12 @@
 
 ## Dependencies ----
 ## Add one line by package you want to add as dependency
-usethis::use_package( "thinkr" )
+usethis::use_package( "serial" )
+usethis::use_package( "glue" )
+usethis::use_package( "tidyverse", type = "depends")
+usethis::use_package( "shinyjs" )
+usethis::use_package( "tibble" )
+usethis::use_package( "dplyr" )
 
 ## Add modules ----
 ## Create a module infrastructure in R/

@@ -12,9 +12,13 @@ Imports:
     DT,
     glue,
     htmltools,
-    serial
+    serial,
+    shinyjs,
+    tibble,
+    dplyr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.0
 URL: https://github.com/maalid/seRialConnectoR
 BugReports: https://github.com/maalid/seRialConnectoR/issues
+Depends:
