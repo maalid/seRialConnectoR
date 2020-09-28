@@ -29,7 +29,16 @@ You can install the released version of `seRialConnectoR` from [GitHub](https://
 devtools::install_github("maalid/seRialConnectoR")
 ```
 
+You must have installed shiny, golem, serial,  
+
 ## Example
 
+To run the app, just write
+
+```r
+seRialConnectoR::run_app()
+```
+
+in the console and hit `enter`.
 
 

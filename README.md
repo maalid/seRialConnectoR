@@ -14,11 +14,21 @@ simple `shiny` app.
 
 ## Installation
 
-You can install the released version of seRialConnectoR from
+You can install the released version of `seRialConnectoR` from
 [GitHub](https://github.com/maalid/seRialConnectoR) with:
 
 ``` r
 devtools::install_github("maalid/seRialConnectoR")
 ```
 
+You have to install
+
 ## Example
+
+To run the app, just write
+
+``` r
+seRialConnectoR::run_app()
+```
+
+in the console and hit `enter`.
